@@ -1,0 +1,40 @@
+@import 'setup.css';
+/* most of the styles are hidden in this other file
+to try and keep things easy */
+
+
+
+/* change the colors here! */
+/* https://htmlcolorcodes.com for help with the #hex numbers */
+/* or just try out color names and see if they work */
+:root {
+  --black: #000;
+  --white: #FFF;
+
+  --background: #2c4584; /* main background-color */
+  --color: #7cedcc; /* main text color */
+
+  --links: red;
+
+  --alert: orange;
+
+  --ghost: rgba(255,255,255,.6);
+  --shadow: rgba(0,0,0,.2);
+} 
+
+/* theme */
+body {
+  background: var(--background); 
+  color: var(--color);
+}
+
+.banner {
+  background-color: var(--alert);
+  color: var(--white);
+  /*color: red; you can also just use names - and most of them work */
+}
+
+a {
+  /* if you want colors for links */
+  /*color: var(--links);*/
+}
